@@ -8,7 +8,7 @@ It was tested on an iPhone 13 pro.
 - It's Augmented Reality!
 
 # Demonstration:
-Note the car crashing around is me testing it and the other one is the AI player
+Note the car crashing around is me testing it, and the other one is the AI player
 https://github.com/Apollo99-Games/AR-Racer/assets/163193765/45e6a068-ef80-4b9e-a52b-d614d6e46d1d
 
 # Concept Renders:
@@ -17,7 +17,7 @@ https://github.com/Apollo99-Games/AR-Racer/assets/163193765/3edfe682-6ea2-434d-a
 
 https://github.com/Apollo99-Games/AR-Racer/assets/163193765/9fb4db4e-1582-49c9-9568-dd87ba5d7f5a
 
-The final project was going to have arcade mode where cars would fight each other, but time constraints exist
+The final project was going to have arcade mode where cars would fight each other, but time constraints exist.
 
 https://github.com/Apollo99-Games/AR-Racer/assets/163193765/2c729fc8-bc3a-4ce0-a1e2-351811188f02
 
