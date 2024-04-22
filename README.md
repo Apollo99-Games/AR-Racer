@@ -2,6 +2,9 @@
 This is an Augmented reality racing game built for the IOS platform. It uses Apple's AIkit and Scenekit. Note this is a one-time demo/showcase, meaning the UI may not work across all devices.
 It was tested on an iPhone 13 pro.
 
+The car model is not included in the file but can be downloaded from [blender kit](https://www.blenderkit.com/asset-gallery?query=category_subtree:model+mclearn+order:_score)
+You may have to decrease the poly count as it is a bit high.
+
 # Features:
 - Fully customizable track layout
 - An AI player
