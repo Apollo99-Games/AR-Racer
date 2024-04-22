@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F87DABD282B4C4B0019CA87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87DABC282B4C4B0019CA87 /* AppDelegate.swift */; };
+		3F87DAC1282B4C4B0019CA87 /* gameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87DAC0282B4C4B0019CA87 /* gameViewController.swift */; };
+		3F87DAC4282B4C4B0019CA87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F87DAC2282B4C4B0019CA87 /* Main.storyboard */; };
+		3F87DAC6282B4C4F0019CA87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F87DAC5282B4C4F0019CA87 /* Assets.xcassets */; };
+		3F87DAC9282B4C4F0019CA87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F87DAC7282B4C4F0019CA87 /* LaunchScreen.storyboard */; };
+		3F87DAD0282B4C880019CA87 /* Assets.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F87DACF282B4C870019CA87 /* Assets.scnassets */; };
+		3F87DAD2282B4CE90019CA87 /* carPhysics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F87DAD1282B4CE90019CA87 /* carPhysics.swift */; };
+		3FCC43EA2833D4BE0006F802 /* focusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCC43E92833D4BE0006F802 /* focusSquare.swift */; };
+		3FCC43EC2833DFB70006F802 /* light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCC43EB2833DFB70006F802 /* light.swift */; };
+		3FD51FE82854415E007DCB5B /* trackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD51FE72854415E007DCB5B /* trackViewController.swift */; };
+		3FD51FEA2854416D007DCB5B /* buildTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD51FE92854416D007DCB5B /* buildTrack.swift */; };
+		3FD51FEE2854417D007DCB5B /* saveTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD51FED2854417D007DCB5B /* saveTrack.swift */; };
+		3FD51FF028544181007DCB5B /* trackUIPiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD51FEF28544181007DCB5B /* trackUIPiece.swift */; };
+		3FE1F6EE284EA6170046111F /* carViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1F6ED284EA6160046111F /* carViewController.swift */; };
+		3FE1F6F2284F97220046111F /* colourList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE1F6F1284F97220046111F /* colourList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F87DAB9282B4C4B0019CA87 /* FinalARCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalARCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F87DABC282B4C4B0019CA87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F87DAC0282B4C4B0019CA87 /* gameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameViewController.swift; sourceTree = "<group>"; };
+		3F87DAC3282B4C4B0019CA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F87DAC5282B4C4F0019CA87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F87DAC8282B4C4F0019CA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F87DACF282B4C870019CA87 /* Assets.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = Assets.scnassets; path = ../../../../Documents/Assets.scnassets; sourceTree = "<group>"; };
+		3F87DAD1282B4CE90019CA87 /* carPhysics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carPhysics.swift; sourceTree = "<group>"; };
+		3FCC43E92833D4BE0006F802 /* focusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = focusSquare.swift; sourceTree = "<group>"; };
+		3FCC43EB2833DFB70006F802 /* light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = light.swift; sourceTree = "<group>"; };
+		3FD51FE72854415E007DCB5B /* trackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackViewController.swift; sourceTree = "<group>"; };
+		3FD51FE92854416D007DCB5B /* buildTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildTrack.swift; sourceTree = "<group>"; };
+		3FD51FED2854417D007DCB5B /* saveTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = saveTrack.swift; sourceTree = "<group>"; };
+		3FD51FEF28544181007DCB5B /* trackUIPiece.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = trackUIPiece.swift; sourceTree = "<group>"; };
+		3FE1F6ED284EA6160046111F /* carViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carViewController.swift; sourceTree = "<group>"; };
+		3FE1F6F1284F97220046111F /* colourList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = colourList.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F87DAB6282B4C4B0019CA87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F87DAB0282B4C4B0019CA87 = {
+			isa = PBXGroup;
+			children = (
+				3F87DABB282B4C4B0019CA87 /* FinalARCar */,
+				3F87DABA282B4C4B0019CA87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F87DABA282B4C4B0019CA87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F87DAB9282B4C4B0019CA87 /* FinalARCar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F87DABB282B4C4B0019CA87 /* FinalARCar */ = {
+			isa = PBXGroup;
+			children = (
+				3FD51FEF28544181007DCB5B /* trackUIPiece.swift */,
+				3FD51FED2854417D007DCB5B /* saveTrack.swift */,
+				3FD51FE92854416D007DCB5B /* buildTrack.swift */,
+				3FD51FE72854415E007DCB5B /* trackViewController.swift */,
+				3FCC43E92833D4BE0006F802 /* focusSquare.swift */,
+				3FCC43EB2833DFB70006F802 /* light.swift */,
+				3F87DAC0282B4C4B0019CA87 /* gameViewController.swift */,
+				3F87DAD1282B4CE90019CA87 /* carPhysics.swift */,
+				3FE1F6F1284F97220046111F /* colourList.swift */,
+				3FE1F6ED284EA6160046111F /* carViewController.swift */,
+				3F87DABC282B4C4B0019CA87 /* AppDelegate.swift */,
+				3F87DACF282B4C870019CA87 /* Assets.scnassets */,
+				3F87DAC2282B4C4B0019CA87 /* Main.storyboard */,
+				3F87DAC5282B4C4F0019CA87 /* Assets.xcassets */,
+				3F87DAC7282B4C4F0019CA87 /* LaunchScreen.storyboard */,
+			);
+			path = FinalARCar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F87DAB8282B4C4B0019CA87 /* FinalARCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F87DACC282B4C4F0019CA87 /* Build configuration list for PBXNativeTarget "FinalARCar" */;
+			buildPhases = (
+				3F87DAB5282B4C4B0019CA87 /* Sources */,
+				3F87DAB6282B4C4B0019CA87 /* Frameworks */,
+				3F87DAB7282B4C4B0019CA87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinalARCar;
+			productName = FinalARCar;
+			productReference = 3F87DAB9282B4C4B0019CA87 /* FinalARCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F87DAB1282B4C4B0019CA87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3F87DAB8282B4C4B0019CA87 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3F87DAB4282B4C4B0019CA87 /* Build configuration list for PBXProject "FinalARCar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F87DAB0282B4C4B0019CA87;
+			productRefGroup = 3F87DABA282B4C4B0019CA87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F87DAB8282B4C4B0019CA87 /* FinalARCar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F87DAB7282B4C4B0019CA87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F87DAD0282B4C880019CA87 /* Assets.scnassets in Resources */,
+				3F87DAC9282B4C4F0019CA87 /* LaunchScreen.storyboard in Resources */,
+				3F87DAC6282B4C4F0019CA87 /* Assets.xcassets in Resources */,
+				3F87DAC4282B4C4B0019CA87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F87DAB5282B4C4B0019CA87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD51FEE2854417D007DCB5B /* saveTrack.swift in Sources */,
+				3FD51FE82854415E007DCB5B /* trackViewController.swift in Sources */,
+				3FCC43EC2833DFB70006F802 /* light.swift in Sources */,
+				3F87DAD2282B4CE90019CA87 /* carPhysics.swift in Sources */,
+				3FCC43EA2833D4BE0006F802 /* focusSquare.swift in Sources */,
+				3FE1F6F2284F97220046111F /* colourList.swift in Sources */,
+				3FD51FF028544181007DCB5B /* trackUIPiece.swift in Sources */,
+				3FD51FEA2854416D007DCB5B /* buildTrack.swift in Sources */,
+				3F87DAC1282B4C4B0019CA87 /* gameViewController.swift in Sources */,
+				3F87DABD282B4C4B0019CA87 /* AppDelegate.swift in Sources */,
+				3FE1F6EE284EA6170046111F /* carViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F87DAC2282B4C4B0019CA87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F87DAC3282B4C4B0019CA87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F87DAC7282B4C4F0019CA87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F87DAC8282B4C4F0019CA87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F87DACA282B4C4F0019CA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F87DACB282B4C4F0019CA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F87DACD282B4C4F0019CA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 273Y8VA6WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wahhaj.FinalARCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F87DACE282B4C4F0019CA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 273Y8VA6WD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.wahhaj.FinalARCar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F87DAB4282B4C4B0019CA87 /* Build configuration list for PBXProject "FinalARCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F87DACA282B4C4F0019CA87 /* Debug */,
+				3F87DACB282B4C4F0019CA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F87DACC282B4C4F0019CA87 /* Build configuration list for PBXNativeTarget "FinalARCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F87DACD282B4C4F0019CA87 /* Debug */,
+				3F87DACE282B4C4F0019CA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F87DAB1282B4C4B0019CA87 /* Project object */;
+}
