@@ -15,7 +15,7 @@ Note the car crashing around is me testing it, and the other one is the AI playe
 
 https://github.com/Apollo99-Games/AR-Racer/assets/163193765/45e6a068-ef80-4b9e-a52b-d614d6e46d1d
 
-You can make any tracks:
+You can make many tracks:
 
 ![many tracks](https://github.com/Apollo99-Games/AR-Racer/assets/163193765/d448def6-5fce-47ed-b2b8-6523c0214d51)
 
